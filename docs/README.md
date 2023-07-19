@@ -55,18 +55,66 @@ Web エンジニアとして、フリーランスで活動中。
 
 ### Classi 株式会社（2019/09〜2022/02）
 
-Web エンジニアとして高校生向けの学習サービス「Classi」の開発に従事。
+Web エンジニアとして自社サービスの高校向けの教育プラットフォーム「[Classi](https://classi.jp/)」の開発に従事。
+フロントエンド（React/Angular/jQuery）・バックエンド（Ruby on Rails）・インフラ構築/運用（AWS ECS/Terraform）まで幅広く開発に携わる。
+その他ベトナムからの新卒メンバーのメンターや指導も行っていた。
 
-- プロジェクト規模
+### サービスについて
+
+- 全国の高校の 50％以上、高校生の 3 人に 1 人 が利用する教育プラットフォーム
+  - 入社時点（2019 年）
+- ユーザーは先生/生徒/保護者
+- ユーザー数 116 万人
+  - 入社時点（2019 年）
+
+### アプリケーションについて
+
+アプリケーションは機能ごとに分割されており、それぞれのアプリケーションは EC2 もしくは ECS で動作している。
+DB は全てのアプリケーションで共有しており、分断されたモノリスとなっている。
+機能に応じて採用技術は異なり、サーバーサイドは FuelPHP/Rails が、フロントエンドは jQuery/AngularJS/React/Angular が混在しており MPA/SPA もアプリケーションにより異なる。
+
+### 主要技術
+
+- サーバーサイド
+  - Ruby on Rails
+  - FuelPHP
+- フロントエンド
+  - Angular
+  - React
+  - AngularJS
+  - jQuery
+- インフラ
+  - Terraform
+  - nginx
+  - AWS
+    - EC2
+    - ECS
+    - CloudFormation
+    - Aurora MySQL
+    - CodePipeline
+    - CodeDeploy
+    - S3
+    - CloudWatch
+    - CloudFront
+    - EventBridge
+- ツール
+  - CircleCI
+  - GitHub
+  - Sentry
+  - Datadog
+
+### プロジェクト
+
+- 規模
   - 2〜5 人チームでのスクラム開発
-- プロジェクト詳細
+- 参画プロジェクト
+  - 内製問題レコメンドエンジンとオンラインテスト機能との機能連携
+  - サーバー移行
+    - AWS EC2 → ECS への移行
+  - EOL 対応
+    - Ruby on Rails v4.2 → v5.1 へのアップグレード
+    - jQuery/AngularJS/Angular のアップグレード
   - Ruby on Rails/Angular での新規機能開発
-  - Ruby on Rails v4.2 → v5.1 へのアップグレード
-  - AWS EC2 → ECS への移行
-  - jQuery/AngularJS/Angular のアップグレード
-  - Ruby on Rails のレガシーコードのリファクタリング
-  - API・バッチ処理の環境移行
-  - 内製レコメンドエンジン API を利用した機能開発
 
 ### イサナドットネット 株式会社（2017/04〜2019/08）
 
