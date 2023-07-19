@@ -108,13 +108,13 @@ DB は全てのアプリケーションで共有しており、分断された�
 - 規模
   - 2〜5 人チームでのスクラム開発
 - 参画プロジェクト
-  - 内製問題レコメンドエンジンとオンラインテスト機能との機能連携
-  - サーバー移行
+  - [内製問題レコメンドエンジンとオンラインテスト機能との機能連携](career/classi/about.md#内製問題レコメンドエンジンとオンラインテスト機能との機能連携)
+  - [サーバー移行](career/classi/about.md#サーバー移行)
     - AWS EC2 → ECS への移行
-  - EOL 対応
+  - [EOL 対応](career/classi/about.md#EOL-対応)
     - Ruby on Rails v4.2 → v5.1 へのアップグレード
     - jQuery/AngularJS/Angular のアップグレード
-  - Ruby on Rails/Angular での新規機能開発
+  - [Ruby on Rails/Angular での保護者向け連絡機能開発](career/classi/about.md#保護者向け連絡機能開発)
 
 ### イサナドットネット 株式会社（2017/04〜2019/08）
 
