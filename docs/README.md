@@ -108,13 +108,13 @@ DB は全てのアプリケーションで共有しており、分断された�
 - 規模
   - 2〜5 人チームでのスクラム開発
 - 参画プロジェクト
-  - [内製問題レコメンドエンジンとオンラインテスト機能との機能連携](career/classi/about.md#内製問題レコメンドエンジンとオンラインテスト機能との機能連携)
-  - [サーバー移行](career/classi/about.md#サーバー移行)
+  - [内製問題レコメンドエンジンとオンラインテスト機能との機能連携](career/classi/about.md#内製問題レコメンドエンジンとオンラインテスト機能との機能連携-202010-202202)
+  - [サーバー移行](career/classi/about.md#サーバー移行-202006-202010)
     - AWS EC2 → ECS への移行
-  - [EOL 対応](career/classi/about.md#EOL-対応)
+  - [EOL 対応](career/classi/about.md#EOL-対応-202004-202009)
     - Ruby on Rails v4.2 → v5.1 へのアップグレード
     - jQuery/AngularJS/Angular のアップグレード
-  - [Ruby on Rails/Angular での保護者向け連絡機能開発](career/classi/about.md#保護者向け連絡機能開発)
+  - [Ruby on Rails/Angular での保護者向け連絡機能開発](career/classi/about.md#保護者向け連絡機能開発-201909-202004)
 
 ### イサナドットネット 株式会社（2017/04〜2019/08）
 
@@ -124,11 +124,11 @@ DB は全てのアプリケーションで共有しており、分断された�
 - プロジェクト規模
   - 2〜5 人チームでのウォーターフォール・スクラム開発
 - プロジェクト詳細
-  - [Ruby on Rails での機械学習向け医療診断画像アノテーションアプリケーション開発](career/isana/about.md#機械学習向け医療診断画像アノテーションアプリケーション)
-  - [TypeScript/C++での医療画像診断アプリケーション開発](career/isana/about.md#医療画像診断アプリケーション開発)
-  - [Node.js での VUI チャットボットアプリケーション開発](career/isana/about.md#VUI-チャットボットアプリケーション開発)
-  - [Cordova での治験説明アプリケーションの開発](career/isana/about.md#治験説明アプリケーション)
-  - [医療者向け患者情報管理システムの開発](career/isana/about.md#医療者向け患者情報管理システムの開発)
+  - [Ruby on Rails での機械学習向け医療診断画像アノテーションアプリケーション開発](career/isana/about.md#機械学習向け医療診断画像アノテーションアプリケーション-201903-201908)
+  - [TypeScript/C++での医療画像診断アプリケーション開発](career/isana/about.md#医療画像診断アプリケーション開発-201808-201903)
+  - [Node.js での VUI チャットボットアプリケーション開発](career/isana/about.md#VUI-チャットボットアプリケーション開発-201803-09)
+  - [Cordova での治験説明アプリケーションの開発](career/isana/about.md#治験説明アプリケーション-201711-201802)
+  - [医療者向け患者情報管理システムの開発](career/isana/about.md#医療者向け患者情報管理システムの開発-201704-201803)
     - Java での管理者画面の開発
     - Node.js の OSS [Rocket.Chat](https://www.rocket.chat/) をカスタマイズし、専用のチャットシステムを開発
 
