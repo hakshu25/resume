@@ -42,6 +42,16 @@
 - Ruby on Rails
 - Docker
 - AWS ECS
+- Renovate
+- ESLint
+- Prettier
+- Jest
+- RSpec
+- CircleCI
+- GitHub Actions
+- Sentry
+- Datadog
+- Terraform
 
 ## 職務経歴詳細
 
