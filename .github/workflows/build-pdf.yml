@@ -3,7 +3,7 @@ name: build pdf
 on:
   push:
     tags:
-    - 'v*'
+      - 'v*'
 
 jobs:
   build:
@@ -16,7 +16,9 @@ jobs:
           node-version: '16'
       - run: npm install
       - name: build pdf
-        run: npm run build:pdf
+        run: |
+          npm run build:summary-pdf
+          npm run build:detail-pdf
       - name: create release
         id: create_release
         uses: actions/create-release@v1
@@ -27,13 +29,23 @@ jobs:
           release_name: Release ${{ github.ref }}
           draft: false
           prerelease: false
-      - name: upload Release Asset
-        id: upload-release-asset
+      - name: upload release summary pdf
+        id: upload-release-summary-pdf
         uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./docs/README.pdf
-          asset_name: resume.pdf
+          asset_path: ./docs/resume-summary.pdf
+          asset_name: resume-summary.pdf
+          asset_content_type: application/pdf
+      - name: upload release detail pdf
+        id: upload-release-detail-pdf
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./docs/resume-detail.pdf
+          asset_name: resume-detail.pdf
           asset_content_type: application/pdf
