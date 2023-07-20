@@ -57,6 +57,7 @@
 - Sentry
 - Datadog
 - Terraform
+- Vercel
 
 ---
 
