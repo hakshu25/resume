@@ -8,10 +8,10 @@
 | 生年月日 | 1994/05/25         |
 
 <p>
-  <a href="https://twitter.com/hakshu25"><img src='https://img.shields.io/twitter/url?url=https%3A%2F%2Ftwitter.com%2Fhakshu25&label=%40hakshu25' alt='Twitter'/></a>
-  <a href="https://github.com/hakshu25"><img src='https://img.shields.io/badge/hakshu25--lightgrey.svg?style=social&logo=github' alt='GitHub'/></a>
-  <a href="https://qiita.com/hakshu"><img src='https://img.shields.io/badge/hakshu--lightgrey.svg?style=social&logo=qiita' alt='Qiita'/></a>
-  <a href="https://zenn.dev/hakshu"><img src='https://img.shields.io/badge/hakshu--lightgrey.svg?style=social&logo=zenn' alt='Zenn'/></a>
+  <a href="https://twitter.com/hakshu25" target="_blank" rel="noreferrer"><img src='https://img.shields.io/twitter/url?url=https%3A%2F%2Ftwitter.com%2Fhakshu25&label=%40hakshu25' alt='Twitter'/></a>
+  <a href="https://github.com/hakshu25" target="_blank" rel="noreferrer"><img src='https://img.shields.io/badge/hakshu25--lightgrey.svg?style=social&logo=github' alt='GitHub'/></a>
+  <a href="https://qiita.com/hakshu" target="_blank" rel="noreferrer"><img src='https://img.shields.io/badge/hakshu--lightgrey.svg?style=social&logo=qiita' alt='Qiita'/></a>
+  <a href="https://zenn.dev/hakshu" target="_blank" rel="noreferrer"><img src='https://img.shields.io/badge/hakshu--lightgrey.svg?style=social&logo=zenn' alt='Zenn'/></a>
 </p>
 
 ---
