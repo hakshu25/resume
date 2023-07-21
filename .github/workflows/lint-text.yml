@@ -1,16 +1,16 @@
 name: lint text
 
-on: [push, pull_request]
+on: [push]
 
 jobs:
   build:
     name: lint text
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
         with:
-          node-version: '16'
-      - run: npm install
+          node-version: '18'
+      - run: yarn install --frozen-lockfile
       - name: lint text
-        run: npm run lint
+        run: yarn lint
