@@ -1,5 +1,7 @@
 # hakshu resume
 
+[![release date](https://img.shields.io/github/release-date/hakshu25/resume?color=blue&logo=github)](https://github.com/hakshu25/resume/releases)
+
 ## Data
 
 - [GitHub Pages](https://hakshu25.github.io/resume/)
