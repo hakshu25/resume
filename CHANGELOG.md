@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/hakshu25/resume/compare/v1.1.1...v1.1.2) (2023-07-24)
+
+
+### Bug Fixes
+
+* 見出しレベルの修正 ([adedd9e](https://github.com/hakshu25/resume/commit/adedd9e3f88206d268f64e40fa2a548394048e89))
+
 ## [1.1.1](https://github.com/hakshu25/resume/compare/v1.1.0...v1.1.1) (2023-07-21)
 
 
