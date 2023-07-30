@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "resume template",
   "scripts": {
+    "prepare": "husky install",
     "lint": "textlint docs/**/*.md",
     "build:summary-pdf": "cat docs/README.md | md-to-pdf --config-file ./pdf-configs/config.js > docs/resume-summary.pdf",
     "build:detail-pdf": "cat docs/career/classi/about.md docs/career/isana/about.md | md-to-pdf --config-file ./pdf-configs/config.js > docs/resume-detail.pdf"
