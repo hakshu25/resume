@@ -148,15 +148,15 @@
 #### 1. フロントエンドの EOL 対応
 
 - A 機能について以下アップデート作業を実施
-  - jQuery v1 -> v3
-  - AngularJS v1.2 -> v1.8
+  - jQuery v1 → v3
+  - AngularJS v1.2 → v1.8
 - B 機能について以下アップデート作業を実施
-  - Angular v8 -> v10
+  - Angular v8 → v10
 
 #### 2. サーバーサイドの EOL 対応
 
 - C 機能について以下アップデート作業を実施
-  - Ruby on Rails v4.2 -> v5.1
+  - Ruby on Rails v4.2 → v5.1
 
 ### 工夫
 
