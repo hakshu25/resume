@@ -3,13 +3,14 @@
   "version": "1.0.0",
   "description": "resume template",
   "scripts": {
+    "prepare": "husky install",
     "lint": "textlint docs/**/*.md",
     "build:summary-pdf": "cat docs/README.md | md-to-pdf --config-file ./pdf-configs/config.js > docs/resume-summary.pdf",
     "build:detail-pdf": "cat docs/career/classi/about.md docs/career/isana/about.md | md-to-pdf --config-file ./pdf-configs/config.js > docs/resume-detail.pdf"
   },
   "keywords": [],
   "devDependencies": {
-    "husky": "^5.0.0-alpha.6",
+    "husky": "^8.0.0",
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.0",
     "md-to-pdf": "^5.2.4",
     "textlint": "^13.0.0",

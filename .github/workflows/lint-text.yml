@@ -12,5 +12,7 @@ jobs:
         with:
           node-version: '18'
       - run: yarn install --frozen-lockfile
+        env:
+          HUSKY: 0
       - name: lint text
         run: yarn lint

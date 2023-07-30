@@ -36,6 +36,8 @@ jobs:
           yarn install --frozen-lockfile
           yarn build:summary-pdf
           yarn build:detail-pdf
+        env:
+          HUSKY: 0
       - name: Upload Release PDF
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
