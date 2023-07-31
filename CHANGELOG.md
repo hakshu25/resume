@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://github.com/hakshu25/resume/compare/v1.1.3...v1.2.0) (2023-07-31)
+
+
+### Features
+
+* classiの経歴にオンラインテスト印刷機能改修を追加 ([3f631aa](https://github.com/hakshu25/resume/commit/3f631aaf20f285341c2f07008134babbc6c08978))
+* フリーランスでの案件を新規に追加 ([3ba6d50](https://github.com/hakshu25/resume/commit/3ba6d509d6d2ca824023ba0c84143bc1d23a0b06))
+
+
+### Bug Fixes
+
+* トップの職務経歴詳細の見出しレベルを修正 ([975dde1](https://github.com/hakshu25/resume/commit/975dde186e89a248f319338ed5e63233be18a5fc))
+
 ## [1.1.3](https://github.com/hakshu25/resume/compare/v1.1.2...v1.1.3) (2023-07-30)
 
 
